@@ -1,0 +1,73 @@
+/*General Styles Start Here*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-header-style {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.button {
+    background-color: #0275d8;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #f0ad4e;
+    color: black;
+}
+
+.form {
+    align-self: center;
+}
+
+.form-input {
+    width: 250px;
+    padding: 12px;
+}
+
+.form-message {
+    font-size: xx-small;
+    color: red;
+}
+
+/*Styles for body tag start here*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Styles for header tag start here*/
+
+header {
+    height: 100px;
+}
+
+#header-buttons {
+    margin-top: 20px;
+}
+
+
+/*Styles for main tag start here*/
+
+main {
+    background-color: azure;
+    margin: 12px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Styles for footer tag start here*/
+
+footer {
+    padding: 12px;
+}
